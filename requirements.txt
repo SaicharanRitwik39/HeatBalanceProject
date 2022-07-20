@@ -11,3 +11,4 @@ streamlit-aggrid==0.2.3.post2
 matplotlib==3.3.2
 streamlit-lottie==0.0.3
 streamlit-option-menu==0.3.2
+openpyxl==3.0.5
