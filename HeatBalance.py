@@ -13,7 +13,7 @@ from st_aggrid import AgGrid          #Library used for creating interactive tab
 import matplotlib.pyplot as plt
 from pandas import DataFrame, Series 
 from streamlit_lottie import st_lottie
-#from annotated_text import annotated_text, annotation
+from annotated_text import annotated_text, annotation
 from streamlit_option_menu import option_menu
 import base64
 #The base64 libarary helps with the data download for the csv file because it is going to encode the ASCII to byte conversion.
@@ -127,11 +127,10 @@ st.sidebar.write("***")
 #Code for the "INTRODUCTION" section. Lines 128-151.     
 if(options == 'Introduction'):
     st.title("PYRO HEAT BALANCE WEB APP")
-    st.write("Well, Hello there!")
-    #annotated_text(
-    #("Well", ",", "#8cff66"),
-    #("Hello there", "!", "#8cff66"),    #8ef: Blue,     #faa: Red,     #afa: Green
-    #)    
+    annotated_text(
+    ("Well", ",", "#8cff66"),
+    ("Hello there", "!", "#8cff66"),    #8ef: Blue,     #faa: Red,     #afa: Green
+    )    
     st.markdown("""
 This tool will help you with Pyro Heat Balance. Don't scroll down yet...
 """)
@@ -139,14 +138,13 @@ This tool will help you with Pyro Heat Balance. Don't scroll down yet...
     url3 = "https://assets3.lottiefiles.com/packages/lf20_vhnlnxlf.json"
     res3_json = load_lottieurl(url3)
     st_lottie(res3_json)
-    st.write("Umm, you did anyways...Click on the 'User Notes' button under the Navigation menu to see how to use this app and what features are available.")
-    #annotated_text(
-    #"Umm, you did anyways...Click on the ",
-    #(" 'User Notes' ", "", "#faa"),
-    #"checkbox under", 
-    #(" 'Navigation' ", "", "#faa"),
-    #"to see how to use this app and what features are available."    
-    #)
+    annotated_text(
+    "Umm, you did anyways...Click on the ",
+    (" 'User Notes' ", "", "#faa"),
+    "button under", 
+    (" 'Navigation' ", "", "#faa"),
+    "to see how to use this app and what features are available."    
+    )
 #To display the "LEFT ARROW" animation via LOTTIE Library.    
     url4 = "https://assets5.lottiefiles.com/packages/lf20_0krOal.json"
     res4_json = load_lottieurl(url4)
