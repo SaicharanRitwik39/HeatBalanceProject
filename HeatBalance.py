@@ -13,7 +13,7 @@ from st_aggrid import AgGrid          #Library used for creating interactive tab
 import matplotlib.pyplot as plt
 from pandas import DataFrame, Series 
 from streamlit_lottie import st_lottie
-from annotated_text import annotated_text
+from st_annotated_text import annotated_text
 from streamlit_option_menu import option_menu
 import base64
 #The base64 libarary helps with the data download for the csv file because it is going to encode the ASCII to byte conversion.
