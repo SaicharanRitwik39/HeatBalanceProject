@@ -118,7 +118,7 @@ with st.sidebar:
 st.sidebar.write("***")
 st.sidebar.title('Video')
 st.sidebar.info("For a demo of the Web Application, you may refer to the following video:") 
-st.sidebar.markdown("[Web Application Demo](https://drive.google.com/file/d/1KaUQNLd_f8AdbMpj0oOvebPf1QEiXgzo/view?usp=sharing)")
+st.sidebar.markdown("[Web Application Demo](https://youtu.be/eM6Qcjr2sUs)")
 st.sidebar.write("***")    
 
 
