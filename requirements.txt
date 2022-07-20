@@ -1,0 +1,13 @@
+json5==0.9.5
+jsonschema==3.2.0
+requests==2.24.0
+mpmath==1.1.0
+numpy
+pandas==1.4.2
+seaborn==0.11.0
+scipy==1.5.2
+streamlit==1.10.0
+streamlit-aggrid==0.2.3.port2
+matplotlib==3.3.2
+streamlit-lottie==0.0.3
+streamlit-option-menu==0.3.2
