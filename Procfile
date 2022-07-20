@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run Code.py
+web: sh setup.sh && streamlit run HeatBalance.py
