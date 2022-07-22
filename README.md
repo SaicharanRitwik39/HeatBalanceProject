@@ -18,7 +18,7 @@ The Web App was built in Python using the following libraries:
 12. streamlit-option-menu
 13. annotated-text
 
-In case you have any queries regarding the functionality of the Web Application, you can refer to the following YouTube video for a Demo:
+In case you have any queries regarding the functionality of the Web Application, you can refer to the following YouTube video:
 https://www.youtube.com/watch?v=eM6Qcjr2sUs&t=10s
 
 
