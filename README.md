@@ -22,4 +22,6 @@ The Web App was built in Python using the following libraries:
 In case you have any queries regarding the functionality of the Web Application, you can refer to the following YouTube video:
 https://www.youtube.com/watch?v=eM6Qcjr2sUs&t=10s
 
+Official Report: https://drive.google.com/file/d/18z39qbxtuaJYVdQxcRTrT1dtKvrxpxSK/view?usp=sharing
+
 
