@@ -26,4 +26,6 @@ Official Report: https://drive.google.com/file/d/18z39qbxtuaJYVdQxcRTrT1dtKvrxpx
 
 Web application link (): https://heatbalance-streamlit.herokuapp.com/
 
+NOTE: Any further features/updates will be tested on this link. They will be reflected in the deployed version as well.
+
 
