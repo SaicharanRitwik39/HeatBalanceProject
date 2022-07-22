@@ -1,6 +1,7 @@
 # PYRO HEAT BALANCE PROJECT
 
-This web application helps with the process of Pyro Heat Balance which is widely employed in Cement Industries to carry out Energy Audits. The optimum priority of the modern cement production industry is the minimization of heat energy loss for effective heat utilization. Heat balance can offer extremely useful information on the thermal performance of the system. This is achieved by employing the second law of thermodynamics.
+This software automates the process Pyro Heat Balance which is widely employed in Cement Industries to carry out Energy Audits. The optimum priority of the modern cement production industry is the minimization of heat energy loss for effective heat utilization. Heat balance can offer extremely useful information on the thermal performance of the system. This is achieved by employing the Laws of thermodynamics.
+The software also helps in visualizing the data. Plots can be made to show the overall heat loss distribution along the surface of the cement kiln. This helps in reducing the specific heat consumption and thereby coal savings.
 
 The Web App was built in Python using the following libraries:
 1. json
