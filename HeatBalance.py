@@ -101,12 +101,18 @@ with st.sidebar:
     res1_json = load_lottieurl(url1)
     st_lottie(res1_json)
     options = option_menu(
-        menu_title = "Navigation",
+        menu_title = "Navigation",                                       #Bootstrap icons used for navigation bar.
         options = ["Introduction", "User Notes", "Average Values", "Split DataFrames", "Fan Flows", "Cooler Fans", "Blowers/PA Fans", "Cooler Heat Balance", "Kiln Radiation", "Kiln Heat Balance", "Dashboard Reset"],
         icons = ["info-circle-fill", "journal-check", "calculator-fill", "bar-chart-fill", "fan", "wind", "layout-three-columns", "cloud-snow", "radioactive", "bricks", "yin-yang"],
-        menu_icon = "cast",
-        default_index = 0)
-        #orientation = "horizontal")                                      #Bootstrap icons used for navigation bar.                 
+        menu_icon = "cast", default_index=0,
+        styles={
+	    "container": {"padding": "5!important", "background-color": "#000000"},
+        "icon": {"color": "cornflowerblue", "font-size": "25px"}, 
+	    "nav-link": {"font-size": "16px", "text-align": "left", "margin":"0px", "--hover-color": "#0FDECE"},
+        "nav-link-selected": {"background-color": "#1B9B91"},
+}
+ )
+        #orientation = "horizontal")                                                       
 st.sidebar.write("***")
 st.sidebar.title('Excel Uploads')
 input_excel = st.sidebar.file_uploader('Upload the Dynamic Pressures and Velocities Sheet.', type=['xls','xlsx','xlsm','xlsb','odf'])
