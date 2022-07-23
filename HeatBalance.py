@@ -138,7 +138,7 @@ if(options == 'Introduction'):
 		st.markdown('<p class="font">PYRO HEAT BALANCE WEB APPLICATION</p>', unsafe_allow_html=True) 
     
         st.markdown("""
-	This tool will help you with Pyro Heat Balance. Don't scroll down yet...
+	Well, Hello there! This software is all you need for establishing the Heat Balance of Pyro systems in cement plants.
 	""")
 	
 #To display the animation via LOTTIE Library.        
@@ -166,7 +166,6 @@ if(options == 'Introduction'):
     )	
 	
     
-
 #Code for the "USER NOTES" section. Lines 170-238.
 elif(options == 'User Notes'):
     st.title("NOTES")
