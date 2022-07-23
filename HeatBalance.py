@@ -97,15 +97,13 @@ class Kiln():
     
 #SIDEBAR. Lines 99-122.
 with st.sidebar:
-    url1 = "https://assets8.lottiefiles.com/private_files/lf30_nhg4au0e.json"
-    res1_json = load_lottieurl(url1)
+    url1 = "https://assets7.lottiefiles.com/packages/lf20_b2lc5tdx.json"
+    res1_json = load_lottieurl(url1)                           #Bootstrap icons used for navigation bar. 
     st_lottie(res1_json)
-    options = option_menu(
-        menu_title = "Navigation",                                       #Bootstrap icons used for navigation bar.
-        options = ["Introduction", "User Notes", "Average Values", "Split DataFrames", "Fan Flows", "Cooler Fans", "Blowers/PA Fans", "Cooler Heat Balance", "Kiln Radiation", "Kiln Heat Balance", "Dashboard Reset"],
-        icons = ["info-circle-fill", "journal-check", "calculator-fill", "bar-chart-fill", "fan", "wind", "layout-three-columns", "cloud-snow", "radioactive", "bricks", "yin-yang"],
-        menu_icon = "cast", default_index=0,
-        styles={
+    options = option_menu("Navigation", ["Introduction", "User Notes", "Average Values", "Split DataFrames", "Fan Flows", "Cooler Fans", "Blowers/PA Fans", "Cooler Heat Balance", "Kiln Radiation", "Kiln Heat Balance", "Dashboard Reset"],
+	                    icons=["info-circle-fill", "journal-check", "calculator-fill", "bar-chart-fill", "fan", "wind", "layout-three-columns", "cloud-snow", "radioactive", "bricks", "yin-yang"],
+	                    menu_icon="cast", default_index=0,
+                            styles={
 	    "container": {"padding": "5!important", "background-color": "#000000"},
         "icon": {"color": "cornflowerblue", "font-size": "25px"}, 
 	    "nav-link": {"font-size": "16px", "text-align": "left", "margin":"0px", "--hover-color": "#0FDECE"},
@@ -132,34 +130,44 @@ st.sidebar.write("***")
 
 #Code for the "INTRODUCTION" section. Lines 128-151.     
 if(options == 'Introduction'):
-    st.title("PYRO HEAT BALANCE WEB APP")
-    annotated_text(
-    ("Well", ",", "#8cff66"),
-    ("Hello there", "!", "#8cff66"),    #8ef: Blue,     #faa: Red,     #afa: Green
-    )    
-    st.markdown("""
-This tool will help you with Pyro Heat Balance. Don't scroll down yet...
-""")
-#To display the "COOLER" animation via LOTTIE Library.        
-    url3 = "https://assets3.lottiefiles.com/packages/lf20_vhnlnxlf.json"
+	col1i, col2i = st.columns( [0.8, 0.2])
+	with col1i:               # To display the header text using css style
+		st.markdown(""" <style> .font {
+				font-size:35px ; font-family: 'Cooper Black'; color: #1BA6C4;} 
+				</style> """, unsafe_allow_html=True)
+		st.markdown('<p class="font">PYRO HEAT BALANCE WEB APPLICATION</p>', unsafe_allow_html=True) 
+    
+        st.markdown("""
+	This tool will help you with Pyro Heat Balance. Don't scroll down yet...
+	""")
+	
+#To display the animation via LOTTIE Library.        
+    url3 = "https://assets8.lottiefiles.com/packages/lf20_DVSwGQ.json"
     res3_json = load_lottieurl(url3)
     st_lottie(res3_json)
-    annotated_text(
-    "Umm, you did anyways...Click on the ",
-    (" 'User Notes' ", "", "#faa"),
-    "button under", 
-    (" 'Navigation' ", "", "#faa"),
+    col3i, col4i = st.columns( [0.8, 0.2])
+
+	with col3i:
+		st.markdown(""" <style> .font {
+					font-size:35px ; font-family: 'Cooper Black'; color: #1BA6C4;} 
+					</style> """, unsafe_allow_html=True)
+		st.markdown('<p class="font">LETS GET STARTED</p>', unsafe_allow_html=True) 
+	with col4i:
+		url4 = "https://assets5.lottiefiles.com/packages/lf20_cm4iroai.json"
+		res4_json = load_lottieurl(url4)
+		st_lottie(res4_json)  
+
+	annotated_text(
+    "Click on the ",
+    (" 'USER NOTES' ", "", "#14BF9A"),
+    "checkbox under", 
+    (" 'NAVIGATION' ", "", "#14BF9A"),
     "to see how to use this app and what features are available."    
-    )
-#To display the "LEFT ARROW" animation via LOTTIE Library.    
-    url4 = "https://assets5.lottiefiles.com/packages/lf20_0krOal.json"
-    res4_json = load_lottieurl(url4)
-    st_lottie(res4_json)
+    )	
+	
+    
 
-  
-
-
-#Code for the "USER NOTES" section. Lines 157-224.
+#Code for the "USER NOTES" section. Lines 170-238.
 elif(options == 'User Notes'):
     st.title("NOTES")
    
