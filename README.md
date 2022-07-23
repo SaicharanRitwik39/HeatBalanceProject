@@ -24,8 +24,8 @@ https://www.youtube.com/watch?v=eM6Qcjr2sUs&t=10s
 
 Official Report: https://drive.google.com/file/d/18z39qbxtuaJYVdQxcRTrT1dtKvrxpxSK/view?usp=sharing
 
-Web application link (): https://heatbalance-streamlit.herokuapp.com/
+NOTE: Any further features/updates will be tested on this link: 
+https://heatbalance-streamlit.herokuapp.com/
 
-NOTE: Any further features/updates will be tested on this link. They will be reflected in the deployed version as well.
-
+They will be reflected in the deployed version as well.
 
