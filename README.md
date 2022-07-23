@@ -2,6 +2,7 @@
 The software is live at: https://pyroprocesshmb.herokuapp.com/ 
 
 You may also use this link: https://heatbalance-streamlit.herokuapp.com/
+
 NOTE: Any further features/updates will be tested on the link above. They will be reflected in the deployed version as well.
 
 This software automates the process of Pyro Heat Balance which is widely employed in Cement Industries to carry out Energy Audits. The optimum priority of the modern cement production industry is the minimization of heat energy loss for effective heat utilization. Heat balance can offer extremely useful information on the thermal performance of the system. This is achieved by employing the Laws of Thermodynamics.
